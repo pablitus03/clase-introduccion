@@ -59,4 +59,9 @@ elif in_mod == "niños con queso y tocineta":
 
 st.write (" 3, 2, 1", set_mod)
 
-
+with st.sidebar:
+  st.subheader ("configuara el termino")
+  mod_radio = st.radio(
+    "escoge tu color";
+  ('rosadito', 'cafe','mejor pide un carbon')
+  )
