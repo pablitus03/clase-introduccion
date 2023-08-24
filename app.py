@@ -22,3 +22,16 @@ with col1:
   resp = st.checkbox ('de acuerdo')
   if resp:
     st.write('sip')
+
+with col2:
+  st.subheader ("this is the remix")
+  modo = st.radio ("tu interfaz es", ('visual','auditiva','touch'))
+  if modo == 'visual':
+    st.write (" menos mal, ya me preocuparia si escribieras sin ver")
+    
+  if modo == 'auditiva':
+      st.write ("tenemos orejas que alegria")
+    
+  if modo == 'touch':
+    st.write (" ve a abrasar unn arbol, llevas mucho aqui sentado")
+
