@@ -9,5 +9,5 @@ image = Image.open('nyan_cat.jpg')
 
 st.image(image, caption= 'interfaces')
 
-texto =st.text_imput('pa pe pi po pu','mia mie mii mio miu')
+texto =st.text_input('pa pe pi po pu','mia mie mii mio miu')
 st.write( 'el texto es', texto)
