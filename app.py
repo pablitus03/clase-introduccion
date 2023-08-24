@@ -57,6 +57,6 @@ elif in_mod == "anvorguesa":
 elif in_mod == "niños con queso y tocineta":
   set_mod = "sale un niño especialllll"
 
-st.write (" la accion es", set_mod)
+st.write (" 3, 2, 1", set_mod)
 
 
