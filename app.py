@@ -35,3 +35,28 @@ with col2:
   if modo == 'touch':
     st.write (" ve a abrasar un arbol, llevas mucho aqui sentado")
 
+st.subheader ("NOOOOO,MIS BOTONES DE GOMITA")
+if st.button ('press start'):
+  st.write ('player n1, ready')
+
+else:
+  st.write ('exit?')
+
+st.subheader("hoy quiero...")
+in_mod = st.selectbox(
+  " que llevas el dia de hoy",
+  ("pizza","anvorguesa","niños con queso y tocineta"),
+)
+
+if in_mod == "pizza":
+  set_mod = "en la michi pizzeria todo se amaza a patita"
+
+elif in_mod == "anvorguesa":
+  set_mod = " para pa pa paaaaa"
+
+elif in_mod == "niños con queso y tocineta":
+  set_mod = "sale un niño especialllll"
+
+st.write (" la accion es", set_mod)
+
+
