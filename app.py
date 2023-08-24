@@ -5,4 +5,6 @@ st.title("miau de pablitus03")
 
 st.header ("aqui comienza mi historia")
 st.write ("confio en que puuedo entender")
-image = image.open(
+image = image.open("nyan cat.jpg")
+
+st.image(image, caption="interfaces")
