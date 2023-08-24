@@ -33,5 +33,5 @@ with col2:
       st.write ("tenemos orejas que alegria")
     
   if modo == 'touch':
-    st.write (" ve a abrasar unn arbol, llevas mucho aqui sentado")
+    st.write (" ve a abrasar un arbol, llevas mucho aqui sentado")
 
