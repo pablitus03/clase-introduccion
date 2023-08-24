@@ -9,5 +9,16 @@ image = Image.open('nyan_cat.jpg')
 
 st.image(image, caption= 'interfaces')
 
-texto =st.text_input('pa pe pi po pu','mia mie mii mio miu')
+texto =st.text_input('eres libre de escribir','mia mie mii mio miu')
 st.write( 'el texto es', texto)
+
+st.subheader ("vienen 2 columnas")
+
+col1, col2 = st.columns(2)
+
+with col1:
+  st.subheader ("soy la primera")
+  st.write("si soy la primera")
+  resp = st.checkbox ('de acuerdo')
+  if resp:
+    st.write('sip')
